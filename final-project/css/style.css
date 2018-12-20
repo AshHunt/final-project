@@ -1,0 +1,27 @@
+
+h1 {font-family: 'Petit Formal Script', cursive;
+    position: center;
+    margin: 2000px;
+    font-size: 75px;
+}
+#header >h1{
+    text-align: center;
+    text-emphasis: bold;
+    margin: 30px;
+}
+#navigation{
+    position: sticky;
+}
+#navigation > ul {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 0;
+    
+}
+#navigation > ul >li {
+    font-family: 'Petit Formal Script', cursive;
+    font-size: 18px;
+}
