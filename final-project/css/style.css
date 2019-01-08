@@ -3,6 +3,7 @@ h1 {font-family: 'Petit Formal Script', cursive;
     position: center;
     margin: 2000px;
     font-size: 75px;
+    color: rgb(103, 70, 141)
 }
 #header >h1{
     text-align: center;
@@ -11,6 +12,7 @@ h1 {font-family: 'Petit Formal Script', cursive;
 }
 #navigation{
     position: sticky;
+    background-color: honeydew;
 }
 #navigation > ul {
     align-items: center;
@@ -19,9 +21,24 @@ h1 {font-family: 'Petit Formal Script', cursive;
     flex-wrap: wrap;
     justify-content: space-around;
     padding: 0;
+    background-color: honeydew;
     
 }
 #navigation > ul >li {
     font-family: 'Petit Formal Script', cursive;
     font-size: 18px;
+    color: rgb(103, 70, 141)
 }
+
+#navigation .dropdown {
+    display: none;
+    left: 2;
+    position: relative;
+    top: 0px;
+
+}
+
+#navigation a:hover + .dropdown,
+    #navigation a + .dropdown:hover{
+        display: block;
+    }
