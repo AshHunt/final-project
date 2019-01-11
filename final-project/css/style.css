@@ -4,11 +4,14 @@ h1 {font-family: 'Sofia', cursive;
     margin: 2000px;
     font-size: 75px;
     color: rgb(186, 159, 218)
+    
 }
 #header >h1{
     text-align: center;
     text-emphasis: bold;
     margin: 30px;
+    margin-top: 200px;
+    background-color: rgba(160, 89, 101, .7)
 }
 h2{
     font-family: 'Sofia', cursive;
@@ -17,7 +20,7 @@ h2{
 
 #navigation{
     position: sticky;
-    background-color: honeydew;
+    background-color:rgb(182, 137, 168);
 }
 #navigation > ul {
     align-items: center;
@@ -26,13 +29,14 @@ h2{
     flex-wrap: wrap;
     justify-content: space-around;
     padding: 0;
-    background-color: honeydew;
+    background-color: rgba(160, 89, 101, .7);
     
 }
 #navigation > ul >li {
     font-family: 'Sofia', cursive;
-    font-size: 18px;
-    color: rgb(129, 0, 90)
+    font-size: 20px;
+    color: rgb(129, 0, 90);
+
 }
 
 #navigation .dropdown {
@@ -53,8 +57,23 @@ body {
 }
 #content
 {
-    background-color: rgb(160, 89, 101);
-    margin: 100px
+    background-color: rgba(160, 89, 101, .7);
+    margin: 250px;
+    padding: 50px;
+    margin-top: 100px;
+    font-family:  'Libre Baskerville', serif;
+
+}
+
+img{
+    width: 20%;
+    margin-left: 60%;
+    
+}
+h2{
+    margin-left: 27%;
+    padding-bottom: 15%;
+    padding-top: 2%;
 }
 
   
