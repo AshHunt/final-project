@@ -8,18 +8,30 @@ var State = {
     'active': 'home',
     'home': {
         'title': 'Loving Lucille Jewelry',
-        'links': ['about', 'contact us', 'bracelets', 'necklaces','keychains']
+        'links': ['about', 'contact us', 'bracelets', 'necklaces','keychains and more', 'for the kids']
     },
-    'blog': {
-        'title': 'Read my amazing blog',
-        'links': ['home', 'contact', 'projects']
+    'about us': {
+        'title': 'About Loving Lucille',
+        'links': ['home', 'contact us', 'bracelets', 'necklaces', 'keychains and more', 'for the kids']
     },
-    'contact': {
-        'title': 'Call me here',
-        'links': ['home', 'blog', 'projects']
+    'bracelets': {
+        'title': 'Our Lovely Bracelets',
+        'links': ['home', 'about', 'contact us','necklaces', 'keychains and more', 'for the kids']
     },
-    'projects': {
-        'title': 'My great work',
-        'links': ['home', 'blog', 'contact']
+    'contact us': {
+        'title': 'Send Us an email',
+        'links': ['about', 'home', 'bracelets', 'necklaces', 'keychains and more', 'for the kids']
+    },
+    'necklaces': {
+        'title': 'Our Lovely Necklaces',
+        'links': ['about', 'contact us', 'bracelets', 'home', 'keychains and more', 'for the kids'] 
+    }, 
+    'keychains and more': {
+        'title': 'We Have Keychains and More',
+        'links': ['about', 'contact us', 'bracelets', 'necklaces', 'home', 'for the kids']
+    },
+    'for the kids':{
+        'title': 'Fun Stuff for the Kids',
+        'links': ['about', 'contact us', 'bracelets', 'necklaces', 'keychains and more', 'home']
     }
 };
