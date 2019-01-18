@@ -1,1 +1,3 @@
-export default function Bracelets(state){}
+export default function Bracelets(state){
+    return
+}
